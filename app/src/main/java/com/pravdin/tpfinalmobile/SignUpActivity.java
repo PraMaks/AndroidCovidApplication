@@ -150,20 +150,4 @@ public class SignUpActivity extends AppCompatActivity {
 
     }
 
-   /* public boolean getCitizenInfoVerification(String url){
-        OkHttpClient okHttpClient = new OkHttpClient();
-        Request request = new Request.Builder()
-                .url(url)
-                .build();
-
-        try {
-            Response response = okHttpClient.newCall(request).execute();
-            return Boolean.parseBoolean(response.body().string());
-        }
-        catch(Exception e){
-            e.printStackTrace();
-        }
-
-        return result;
-    }*/
 }
